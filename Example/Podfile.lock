@@ -1,0 +1,16 @@
+PODS:
+  - AEPod (0.1.0)
+
+DEPENDENCIES:
+  - AEPod (from `../`)
+
+EXTERNAL SOURCES:
+  AEPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AEPod: f615f54d00725d9b25af191d8a873ebded4cad8e
+
+PODFILE CHECKSUM: cb1ec17a34aa9d6936c7e8ed7332edad90dc7ccc
+
+COCOAPODS: 1.9.0

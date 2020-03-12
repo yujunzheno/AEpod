@@ -1,0 +1,6 @@
+framework module AEPod {
+  umbrella header "AEPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

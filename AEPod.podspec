@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yujunzheno@163.com/AEPod'
+  s.homepage         = 'https://github.com/yujunzheno/AEPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yujunzheno@163.com' => 'yujunzheno@163.com' }
-  s.source           = { :git => 'https://github.com/yujunzheno@163.com/AEPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yujunzheno/AEPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

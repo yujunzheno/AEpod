@@ -1,0 +1,22 @@
+{
+  "name": "AEPod",
+  "version": "0.1.0",
+  "summary": "A short description of AEPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yujunzheno@163.com/AEPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yujunzheno@163.com": "yujunzheno@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yujunzheno@163.com/AEPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AEPod/Classes/**/*"
+}
