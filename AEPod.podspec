@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AEPod/Classes/**/*'
+  s.source_files = 'AEPod/AEPod/**/*.h', 'AEPod/AEFind/**/*.h'
+  s.vendored_libraries = 'AEPod/AEPod/libAEHelp.a','AEPod/AEFind/libAEFind.a'
   
   # s.resource_bundles = {
   #   'AEPod' => ['AEPod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+ s.public_header_files = 'AEPod/AEPod/**/*.h' , 'AEPod/AEFind/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
