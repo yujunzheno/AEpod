@@ -1,0 +1,6 @@
+framework module AEBalls {
+  umbrella header "AEBalls.h"
+
+  export *
+  module * { export * }
+}

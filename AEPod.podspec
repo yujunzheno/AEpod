@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AEPod'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of AEPod.'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AEPod/AEPod/**/*.h', 'AEPod/AEFind/**/*.h'
+  s.source_files = 'AEPod/AEPod/**/*.h', 'AEPod/AEFind/**/*.h', 'AEPod/AEBall/AEBalls.framework/**/*.h'
   s.vendored_libraries = 'AEPod/AEPod/libAEHelp.a','AEPod/AEFind/libAEFind.a'
-  
+  s.vendored_frameworks = 'AEPod/AEBall/AEBalls.framework'
   # s.resource_bundles = {
   #   'AEPod' => ['AEPod/Assets/*.png']
   # }
 
- s.public_header_files = 'AEPod/AEPod/**/*.h' , 'AEPod/AEFind/**/*.h'
+ s.public_header_files = 'AEPod/AEPod/**/*.h' , 'AEPod/AEFind/**/*.h', 'AEPod/AEBall/AEBalls.framework/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
