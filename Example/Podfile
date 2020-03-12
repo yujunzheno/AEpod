@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AEPod_Example' do
+  pod 'AEPod', :path => '../'
+
+  target 'AEPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
