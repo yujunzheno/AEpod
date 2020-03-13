@@ -6,17 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A008B2225A0195DEEAE98C148C0AFCF1 /* AEPod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5B298654A5D82730B61079571B44619 /* Build configuration list for PBXAggregateTarget "AEPod" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AEPod;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		17D3ADC8693F1ADA37391A0B82952A53 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA074D942053905EBB40562F962EC3D /* ReplaceMe.m */; };
 		2CD36BF73DA33CCE8A9D1959FB0A850F /* Pods-AEPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CCDC43FD87DD64D8AF6C9452F2B90 /* Pods-AEPod_Tests-dummy.m */; };
 		5A9E3804131901A25F6726428B4DDD06 /* Pods-AEPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A269E1A0CE632C9FBFDEE9C89D07B5FA /* Pods-AEPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F64A8E478070FA66CC4242044F1F1E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A9E03014456D649EF383465AF37F2BAB /* AEPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 353126B154ABFC1D6C355E1C6CF137C8 /* AEPod-dummy.m */; };
 		B8D5401F57D7D3CCE14BD31ED8E36EB8 /* Pods-AEPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA450DE3E0D71CD63BD01A1147C24EA /* Pods-AEPod_Example-dummy.m */; };
-		C3AF84C9F39B500EACB0C656485218A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D5697B91F947E1ACFDB70593FC55AB02 /* Pods-AEPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A117DEA3C4A432F51C4EDFC8DC262773 /* Pods-AEPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6DDE338C699B8A038F6C7D5B2798D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ED7B6021FD7C9AD5E7B0A4B44E74D887 /* AEPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F613C00554F9F3497CD0069E62A85E15 /* AEPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +46,36 @@
 
 /* Begin PBXFileReference section */
 		0A1DE787C52F304AADF3CBF60A171A4E /* Pods-AEPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1CDD4BCAD937332DD901D218CBAC5A0C /* AEPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEPod.debug.xcconfig; sourceTree = "<group>"; };
+		0B754D90072083376F51DA3431397EE3 /* AEPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEPod.release.xcconfig; sourceTree = "<group>"; };
 		1DAE662A5BF838665E3BF5B60679ABF4 /* Pods-AEPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		1E6B93970D12403E254A1F64B9A7AB77 /* Pods-AEPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AEPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		260D31C6A300166EB8C20FB507D1F880 /* Pods-AEPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AEPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		29D2F82E7DD3DFD17A070720182F0BB0 /* AEPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEPod-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		328CCDC43FD87DD64D8AF6C9452F2B90 /* Pods-AEPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AEPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		353126B154ABFC1D6C355E1C6CF137C8 /* AEPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEPod-dummy.m"; sourceTree = "<group>"; };
 		35983B2B15522292AAACD62AD8A33162 /* Pods-AEPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEPod_Example-Info.plist"; sourceTree = "<group>"; };
 		363FE80BA66204294AB2C700DCB9DB28 /* Pods_AEPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AEPod_Example.framework; path = "Pods-AEPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA074D942053905EBB40562F962EC3D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AEPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		43CA0B2A4241B292633E6224F399FE0F /* AEPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEPod.release.xcconfig; sourceTree = "<group>"; };
+		37AB47B9EC1C2C751387BB13419C23FA /* AEHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AEHelp.h; sourceTree = "<group>"; };
+		45DED16A0A310A32D44C20DE0C77D3D0 /* AEPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEPod.debug.xcconfig; sourceTree = "<group>"; };
+		63DAEAC95F46FB386794E6450B6F3FDB /* libAEHelp.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAEHelp.a; path = AEPod/AEpod/libAEHelp.a; sourceTree = "<group>"; };
+		727C13ED5875A90417F521753B45919A /* AEBalls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AEBalls.h; sourceTree = "<group>"; };
 		7446AEE4D9052A0230CB382FCDBC7E58 /* Pods-AEPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		77A80C3612AC6D64F1407324609A26F5 /* Pods-AEPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA450DE3E0D71CD63BD01A1147C24EA /* Pods-AEPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AEPod_Example-dummy.m"; sourceTree = "<group>"; };
-		8C14EE10114CEDF76F8DB2B056FECFA0 /* AEPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEPod.framework; path = AEPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99697CB8D7D1E82C0D12EE0E29E4F94C /* AEPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEPod.modulemap; sourceTree = "<group>"; };
+		8177D8B33860234A240EED496476C4CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2723EFC67C6D21DC203AF97CEBA038 /* AEFind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AEFind.h; sourceTree = "<group>"; };
 		A117DEA3C4A432F51C4EDFC8DC262773 /* Pods-AEPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AEPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A269E1A0CE632C9FBFDEE9C89D07B5FA /* Pods-AEPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AEPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		BA4FE443C2BE73D835F4AB71BDC1FB4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C2528214CEFEF677FA280BAB86B4616D /* Pods-AEPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3DC8E71386DB53803106E29E5C0B395 /* AEPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AEPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6D28C278DB881B3B2CFC6009A96B2EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CD65406014845D71FBAB1703CDBA1227 /* Pods-AEPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AEPod_Tests.modulemap"; sourceTree = "<group>"; };
-		D960A83439AA81BED4F2B1F2724AAD12 /* AEPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEPod-Info.plist"; sourceTree = "<group>"; };
 		E2178DC2A83DD5AAD78AE02D35419F2B /* Pods-AEPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E687B8900EED0E7ADCC1D196C3707961 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E71B540A09D15788238F0922A0D10BD7 /* AEPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AEPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7E579788D8AE082F237DE01673FFD08 /* libAEFind.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAEFind.a; path = AEPod/AEFind/libAEFind.a; sourceTree = "<group>"; };
 		EB6F1470249101FD8AAFD1C523C85728 /* Pods-AEPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AEPod_Example.modulemap"; sourceTree = "<group>"; };
 		F02DAFE3F9E50B2FC7497C57A962628D /* Pods_AEPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AEPod_Tests.framework; path = "Pods-AEPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F1EEC43D40A3DC5D46F55C56FD4D31 /* Pods-AEPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AEPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F613C00554F9F3497CD0069E62A85E15 /* AEPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEPod-umbrella.h"; sourceTree = "<group>"; };
+		F657C0151EDD8368285EE7F9F4CA0F08 /* AEBalls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEBalls.framework; path = AEPod/AEBall/AEBalls.framework; sourceTree = "<group>"; };
 		F945B4A0904F14DC9A0A7FD8FF70B693 /* Pods-AEPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +85,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DDE338C699B8A038F6C7D5B2798D4E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE5BFA1FE06D0E9D866E92D4824E702E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3AF84C9F39B500EACB0C656485218A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,30 +99,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30F896D5E257F9B6CAFE397CB7094A74 /* Support Files */ = {
+		03AE7731BCC5DCDDBC948AE7F733C124 /* AEPod */ = {
 			isa = PBXGroup;
 			children = (
-				99697CB8D7D1E82C0D12EE0E29E4F94C /* AEPod.modulemap */,
-				353126B154ABFC1D6C355E1C6CF137C8 /* AEPod-dummy.m */,
-				D960A83439AA81BED4F2B1F2724AAD12 /* AEPod-Info.plist */,
-				29D2F82E7DD3DFD17A070720182F0BB0 /* AEPod-prefix.pch */,
-				F613C00554F9F3497CD0069E62A85E15 /* AEPod-umbrella.h */,
-				1CDD4BCAD937332DD901D218CBAC5A0C /* AEPod.debug.xcconfig */,
-				43CA0B2A4241B292633E6224F399FE0F /* AEPod.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AEPod";
-			sourceTree = "<group>";
-		};
-		31228B6D2D407FEDF5CF3F1A5680CA9C /* AEPod */ = {
-			isa = PBXGroup;
-			children = (
-				3FA074D942053905EBB40562F962EC3D /* ReplaceMe.m */,
-				74F2A06B5266435F060A318278B2074B /* Pod */,
-				30F896D5E257F9B6CAFE397CB7094A74 /* Support Files */,
+				227F91143A54229CEA52A6F6B248BD94 /* AEBall */,
+				1F618410411DE8320D40C819E4A91F2F /* AEFind */,
+				604B4235D604B13A31295718179C999C /* AEpod */,
+				6D7E3417E0044C14AED923E819A00D2B /* Frameworks */,
+				F94C2F70A959771AC01D7FFA3FC9F2B6 /* Pod */,
+				C3E0AC2AA7CE01E8E6F97AF04B2EC84D /* Support Files */,
 			);
 			name = AEPod;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		05D5A1E31A09980323D0763314283021 /* AEBalls.framework */ = {
+			isa = PBXGroup;
+			children = (
+				1227FC75352BB08D0A84D3CD89DAAD2E /* Headers */,
+			);
+			name = AEBalls.framework;
+			path = AEBalls.framework;
+			sourceTree = "<group>";
+		};
+		1227FC75352BB08D0A84D3CD89DAAD2E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				727C13ED5875A90417F521753B45919A /* AEBalls.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1F618410411DE8320D40C819E4A91F2F /* AEFind */ = {
+			isa = PBXGroup;
+			children = (
+				E38A131645977981CAA3F114B443FEA3 /* include */,
+			);
+			name = AEFind;
+			path = AEPod/AEFind;
+			sourceTree = "<group>";
+		};
+		227F91143A54229CEA52A6F6B248BD94 /* AEBall */ = {
+			isa = PBXGroup;
+			children = (
+				05D5A1E31A09980323D0763314283021 /* AEBalls.framework */,
+			);
+			name = AEBall;
+			path = AEPod/AEBall;
 			sourceTree = "<group>";
 		};
 		5AB01972FC8FEBE6030D0E320382184E /* Pods-AEPod_Tests */ = {
@@ -142,22 +165,40 @@
 			path = "Target Support Files/Pods-AEPod_Tests";
 			sourceTree = "<group>";
 		};
-		74F2A06B5266435F060A318278B2074B /* Pod */ = {
+		604B4235D604B13A31295718179C999C /* AEpod */ = {
 			isa = PBXGroup;
 			children = (
-				E71B540A09D15788238F0922A0D10BD7 /* AEPod.podspec */,
-				E687B8900EED0E7ADCC1D196C3707961 /* LICENSE */,
-				BA4FE443C2BE73D835F4AB71BDC1FB4A /* README.md */,
+				BBD3713E5E5EB0ADC36249E2269C4005 /* include */,
 			);
-			name = Pod;
+			name = AEpod;
+			path = AEPod/AEpod;
 			sourceTree = "<group>";
 		};
-		A539E31394B61FC9ECEC56ADB48329EA /* Development Pods */ = {
+		6816001D657BBCAD61223C5F54D818E0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				31228B6D2D407FEDF5CF3F1A5680CA9C /* AEPod */,
+				03AE7731BCC5DCDDBC948AE7F733C124 /* AEPod */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D7E3417E0044C14AED923E819A00D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F657C0151EDD8368285EE7F9F4CA0F08 /* AEBalls.framework */,
+				E7E579788D8AE082F237DE01673FFD08 /* libAEFind.a */,
+				63DAEAC95F46FB386794E6450B6F3FDB /* libAEHelp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70035E3CACC79B484A54BE3A91FD22B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363FE80BA66204294AB2C700DCB9DB28 /* Pods_AEPod_Example.framework */,
+				F02DAFE3F9E50B2FC7497C57A962628D /* Pods_AEPod_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AAC8C0AE37717AAEC5A43218509FD5C8 /* Targets Support Files */ = {
@@ -169,6 +210,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BBD3713E5E5EB0ADC36249E2269C4005 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				37AB47B9EC1C2C751387BB13419C23FA /* AEHelp.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,23 +227,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CC3A4B78C5FCD646A1075CD64C54AE1B /* Products */ = {
+		C3E0AC2AA7CE01E8E6F97AF04B2EC84D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8C14EE10114CEDF76F8DB2B056FECFA0 /* AEPod.framework */,
-				363FE80BA66204294AB2C700DCB9DB28 /* Pods_AEPod_Example.framework */,
-				F02DAFE3F9E50B2FC7497C57A962628D /* Pods_AEPod_Tests.framework */,
+				45DED16A0A310A32D44C20DE0C77D3D0 /* AEPod.debug.xcconfig */,
+				0B754D90072083376F51DA3431397EE3 /* AEPod.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AEPod";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A539E31394B61FC9ECEC56ADB48329EA /* Development Pods */,
+				6816001D657BBCAD61223C5F54D818E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CC3A4B78C5FCD646A1075CD64C54AE1B /* Products */,
+				70035E3CACC79B484A54BE3A91FD22B5 /* Products */,
 				AAC8C0AE37717AAEC5A43218509FD5C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -204,6 +254,15 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38A131645977981CAA3F114B443FEA3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9E2723EFC67C6D21DC203AF97CEBA038 /* AEFind.h */,
+			);
+			name = include;
+			path = include;
 			sourceTree = "<group>";
 		};
 		F59EDE5E16E0E4795FDC443BA0482EFD /* Pods-AEPod_Example */ = {
@@ -223,6 +282,16 @@
 			path = "Target Support Files/Pods-AEPod_Example";
 			sourceTree = "<group>";
 		};
+		F94C2F70A959771AC01D7FFA3FC9F2B6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC8E71386DB53803106E29E5C0B395 /* AEPod.podspec */,
+				C6D28C278DB881B3B2CFC6009A96B2EE /* LICENSE */,
+				8177D8B33860234A240EED496476C4CB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,14 +300,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9E3804131901A25F6726428B4DDD06 /* Pods-AEPod_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D630FDB450DCB86864BF786520A750C5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED7B6021FD7C9AD5E7B0A4B44E74D887 /* AEPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,24 +331,6 @@
 			name = "Pods-AEPod_Example";
 			productName = "Pods-AEPod_Example";
 			productReference = 363FE80BA66204294AB2C700DCB9DB28 /* Pods_AEPod_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A008B2225A0195DEEAE98C148C0AFCF1 /* AEPod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D27BAE8AB67129A5D84D732A07B32657 /* Build configuration list for PBXNativeTarget "AEPod" */;
-			buildPhases = (
-				D630FDB450DCB86864BF786520A750C5 /* Headers */,
-				01FDD4F8CBEF9F268EE78A121C65DE32 /* Sources */,
-				AE5BFA1FE06D0E9D866E92D4824E702E /* Frameworks */,
-				634AAFDB0C548D3F0DE8FD11FC4238B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AEPod;
-			productName = AEPod;
-			productReference = 8C14EE10114CEDF76F8DB2B056FECFA0 /* AEPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCD0824C6959D886DB30D82D20BD05C1 /* Pods-AEPod_Tests */ = {
@@ -327,7 +370,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CC3A4B78C5FCD646A1075CD64C54AE1B /* Products */;
+			productRefGroup = 70035E3CACC79B484A54BE3A91FD22B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -346,13 +389,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		634AAFDB0C548D3F0DE8FD11FC4238B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA00E39F25E523D8D66D6890EA245AA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,15 +399,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01FDD4F8CBEF9F268EE78A121C65DE32 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9E03014456D649EF383465AF37F2BAB /* AEPod-dummy.m in Sources */,
-				17D3ADC8693F1ADA37391A0B82952A53 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2FF6644A20927E41A1E103EE37485015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,6 +499,20 @@
 			};
 			name = Debug;
 		};
+		36251188948D630E15AE1C2F07049F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B754D90072083376F51DA3431397EE3 /* AEPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,37 +572,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		653C20E04C4C9DA8CFBA7B86F09B3C6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CDD4BCAD937332DD901D218CBAC5A0C /* AEPod.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AEPod/AEPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEPod/AEPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AEPod/AEPod.modulemap";
-				PRODUCT_MODULE_NAME = AEPod;
-				PRODUCT_NAME = AEPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -661,37 +671,18 @@
 			};
 			name = Release;
 		};
-		A570357C61B523572FE563BD34623E41 /* Release */ = {
+		A62B92CBF9FFA0F443937FEAFFECCE10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CA0B2A4241B292633E6224F399FE0F /* AEPod.release.xcconfig */;
+			baseConfigurationReference = 45DED16A0A310A32D44C20DE0C77D3D0 /* AEPod.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AEPod/AEPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEPod/AEPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AEPod/AEPod.modulemap";
-				PRODUCT_MODULE_NAME = AEPod;
-				PRODUCT_NAME = AEPod;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		ADCD71697BB5BD21FEE711B2A5FBF143 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -748,11 +739,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27BAE8AB67129A5D84D732A07B32657 /* Build configuration list for PBXNativeTarget "AEPod" */ = {
+		D5B298654A5D82730B61079571B44619 /* Build configuration list for PBXAggregateTarget "AEPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				653C20E04C4C9DA8CFBA7B86F09B3C6E /* Debug */,
-				A570357C61B523572FE563BD34623E41 /* Release */,
+				A62B92CBF9FFA0F443937FEAFFECCE10 /* Debug */,
+				36251188948D630E15AE1C2F07049F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

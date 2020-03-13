@@ -10,4 +10,6 @@
 
 @interface AEHelp : NSObject
 - (NSString *)getAEHelpVersion;
+
+- (NSString *)getName;
 @end

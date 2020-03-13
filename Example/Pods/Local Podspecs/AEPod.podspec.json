@@ -1,9 +1,9 @@
 {
   "name": "AEPod",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A short description of AEPod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yujunzheno@163.com/AEPod",
+  "homepage": "https://github.com/yujunzheno/AEPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "yujunzheno@163.com": "yujunzheno@163.com"
   },
   "source": {
-    "git": "https://github.com/yujunzheno@163.com/AEPod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yujunzheno/AEPod.git",
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AEPod/Classes/**/*"
+  "source_files": [
+    "AEPod/AEPod/**/*.h",
+    "AEPod/AEFind/**/*.h",
+    "AEPod/AEBall/AEBalls.framework/**/*.h"
+  ],
+  "vendored_libraries": [
+    "AEPod/AEPod/libAEHelp.a",
+    "AEPod/AEFind/libAEFind.a"
+  ],
+  "vendored_frameworks": "AEPod/AEBall/AEBalls.framework",
+  "public_header_files": [
+    "AEPod/AEPod/**/*.h",
+    "AEPod/AEFind/**/*.h",
+    "AEPod/AEBall/AEBalls.framework/**/*.h"
+  ]
 }

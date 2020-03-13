@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AEPod'
-  s.version          = '0.3.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of AEPod.'
 
 # This description is used to generate tags and improve search results.
